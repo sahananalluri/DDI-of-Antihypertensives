@@ -1,0 +1,905 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15/"
+     xml:base="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLObjectProperty_SNA00004383 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLObjectProperty_SNA00004383">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">decreases effectiveness</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLObjectProperty_SNA00004385 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLObjectProperty_SNA00004385">
+        <rdfs:label xml:lang="en">Increases risk</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLObjectProperty_SNA00004390 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLObjectProperty_SNA00004390">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">Causes</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLObjectProperty_SNA00004401 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLObjectProperty_SNA00004401">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">Stimulates</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLObjectProperty_SNA00004403 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLObjectProperty_SNA00004403">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">Not recommended during</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLObjectProperty_SNA00004406 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLObjectProperty_SNA00004406">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">Increases absorption</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLObjectProperty_SNA00004407 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLObjectProperty_SNA00004407">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">bypasses the firstpass metabolism</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004317 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004317">
+        <rdfs:comment>Drugs used to treat high blood pressure</rdfs:comment>
+        <rdfs:label xml:lang="en">Antihypertensive drugs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004318 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004318">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004317"/>
+        <rdfs:comment>A diuretic is a substance that promotes diuresis which means the increased production of urine.</rdfs:comment>
+        <rdfs:label xml:lang="en">Diuretics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004319 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004319">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004317"/>
+        <rdfs:comment>Angiotensin-converting enzyme (ACE) inhibitors are medications that prevent an enzyme in the body from producing angiotensin II, a substance that narrows blood vessels. This narrowing can cause high blood pressure and forces the heart to work harder. Angiotensin II also releases hormones that raise blood pressure.</rdfs:comment>
+        <rdfs:label xml:lang="en">ACE Inhibitors</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004320 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004320">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004317"/>
+        <rdfs:comment>Calcium channel blockers are medications used to lower blood pressure. They work by preventing calcium from entering the cells of the heart and arteries. Calcium causes the heart and arteries to contract more strongly.</rdfs:comment>
+        <rdfs:label xml:lang="en">Calcium Channel Blockers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004321 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004321">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004317"/>
+        <rdfs:comment>Beta blockers, also known as beta-adrenergic blocking agents, are medications that reduce blood pressure. Beta blockers work by blocking the effects of the hormone epinephrine, also known as adrenaline.</rdfs:comment>
+        <rdfs:label xml:lang="en">Beta Blockers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004322 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004322">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004317"/>
+        <rdfs:comment>Angiotensin II receptor blockers block the action of angiotensin II. (Angiotensin is a chemical in our body that narrows your blood vessels. This narrowing can increase your blood pressure and force your heart to work harder)</rdfs:comment>
+        <rdfs:label xml:lang="en">Angiotensin Receptor Blockers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004323 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004323">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004322"/>
+        <rdfs:label xml:lang="en">Losartan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004324 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004324">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004322"/>
+        <rdfs:label xml:lang="en">Olmisartan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004325 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004325">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004322"/>
+        <rdfs:label xml:lang="en">Telmisartan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004326 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004326">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004322"/>
+        <rdfs:label xml:lang="en">Valsartan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004327 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004327">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004320"/>
+        <rdfs:label xml:lang="en">Amlodipine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004328 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004328">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004320"/>
+        <rdfs:label xml:lang="en">Nifidepine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004329 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004329">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004320"/>
+        <rdfs:label xml:lang="en">Diltiazem</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004330 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004330">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004320"/>
+        <rdfs:label xml:lang="en">Verapamil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004331 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004331">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004321"/>
+        <rdfs:label xml:lang="en">Atenolol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004332 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004332">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004321"/>
+        <rdfs:label xml:lang="en">Carvedilol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004333 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004333">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004321"/>
+        <rdfs:label xml:lang="en">Labetolol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004334 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004334">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004321"/>
+        <rdfs:label xml:lang="en">Metoprolol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004335 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004335">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004321"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLObjectProperty_SNA00004403"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004404"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Propranolol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004336 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004336">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004319"/>
+        <rdfs:label xml:lang="en">Enalapril</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004337 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004337">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004319"/>
+        <rdfs:label xml:lang="en">Lisinopril</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004338 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004338">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004319"/>
+        <rdfs:label xml:lang="en">Ramipril</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004339 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004339">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004319"/>
+        <rdfs:label xml:lang="en">Benazepril</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004340 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004340">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004318"/>
+        <rdfs:label xml:lang="en">Chlorothiazide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004341 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004341">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004318"/>
+        <rdfs:label xml:lang="en">Chlorthalidone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004342 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004342">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004318"/>
+        <rdfs:label xml:lang="en">Hydrochlorthalidone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004343 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004343">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004318"/>
+        <rdfs:label xml:lang="en">Indapamide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004344 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004344">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004318"/>
+        <rdfs:label xml:lang="en">Metolazone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004346 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004346">
+        <rdfs:comment>A drug interaction is a reaction between two or more drugs or between a drug and a food, beverages, or supplements.</rdfs:comment>
+        <rdfs:label xml:lang="en">Anti hypertensive Drug-Drug Interactions</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004347 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004347">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004320"/>
+        <rdfs:label xml:lang="en">ACE Inhibitors + Angiotensin Receptor Blockers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004348 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004348">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004346"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLObjectProperty_SNA00004385"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004387"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Consumption of diuretics that decrease renal excretion of potassium.
+Causes potential risk of hyperkalaemia.</rdfs:comment>
+        <rdfs:label xml:lang="en">ACE Inhibitors + Potassium Sparing Diuretics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004349 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004349">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004346"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLObjectProperty_SNA00004383"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004317"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>By sonsuming the ACE inhibitors along with the NSAID&apos;s, NSAID&apos;s may decrease the effectiveness of ACE inhibitors which were often used by the people with kidney diseases.</rdfs:comment>
+        <rdfs:label xml:lang="en">ACE Inhibitors + NSAID&apos;s</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004350 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004350">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004346"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLObjectProperty_SNA00004383"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004317"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>While consuming NSAIDs chronically in combination with ARB are at risk for diminished hypotensive response, elevated serum creatinine, and acute kidney injury.</rdfs:comment>
+        <rdfs:label xml:lang="en">Angiotensin Receptor Blockers + NSAID&apos;s</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004351 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004351">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004346"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLObjectProperty_SNA00004390"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004388"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>These medications are contraindicated in systolic dysfunction and may also increase adverse effects.</rdfs:comment>
+        <rdfs:label xml:lang="en">Beta Blockers + Calcium Channel Blockers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004352 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004352">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004346"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLObjectProperty_SNA00004390"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004389"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>NSAIDs may also inhibit the natriuretic response to diuretics with resultant adverse effects in patients with heart failure and other forms of oedema.</rdfs:comment>
+        <rdfs:label xml:lang="en">Diuretics + NSAID&apos;s</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004353 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004353">
+        <rdfs:label xml:lang="en">Factors Affecting</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004354 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004354">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004353"/>
+        <rdfs:comment>Lifestyle factors are the modifiable habits and ways of life that can greatly influence overall health and well-being, including fertility.</rdfs:comment>
+        <rdfs:label xml:lang="en">Lifestyle factors</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004355 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004355">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004353"/>
+        <rdfs:comment>A treatment plan that specifies the dosage, the schedule, and the duration of treatment.</rdfs:comment>
+        <rdfs:label xml:lang="en">Medication Regimen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004356 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004356">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004353"/>
+        <rdfs:comment>Patient specific risk factors means factors specific to a patient that may increase the likelihood or severity of a workplace violence incident</rdfs:comment>
+        <rdfs:label xml:lang="en">Patient Specific Factors</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004357 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004357">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004353"/>
+        <rdfs:label xml:lang="en">Route of Administration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004358 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004358">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004353"/>
+        <rdfs:label xml:lang="en">Age and Gender</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004359 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004359">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004353"/>
+        <rdfs:comment>A condition of the human or living animal or plant body or of one of its parts that impairs normal functioning and is typically manifested by distinguishing signs and symptoms</rdfs:comment>
+        <rdfs:label xml:lang="en">Disease condition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004360 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004360">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004353"/>
+        <rdfs:comment>It is the most important factor, where a part, or all of the risk, is passed down from inheritance or parents.</rdfs:comment>
+        <rdfs:label xml:lang="en">Genetics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004361 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004361">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004354"/>
+        <rdfs:label xml:lang="en">Diet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004362 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004362">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004354"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLObjectProperty_SNA00004390"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004391"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLObjectProperty_SNA00004390"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004402"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLObjectProperty_SNA00004401"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004399"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Alcohol drinking</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004363 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004363">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004354"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLObjectProperty_SNA00004390"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004397"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Smoking</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004364 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004364">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004355"/>
+        <rdfs:label xml:lang="en">Number of Medications taken</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004365 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004365">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004355"/>
+        <rdfs:label xml:lang="en">Dose and Duration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004366 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004366">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004356"/>
+        <rdfs:label xml:lang="en">Pregnancy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004367 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004367">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004356"/>
+        <rdfs:label xml:lang="en">Allergies or Sensitives</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004368 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004368">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004357"/>
+        <rdfs:comment>Oral administration of medication is a convenient, cost-effective, and most commonly used medication administration route.</rdfs:comment>
+        <rdfs:label xml:lang="en">Oral</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004369 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004369">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004357"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLObjectProperty_SNA00004406"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004317"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Intravenous injection is the most common parental route of medication administration</rdfs:comment>
+        <rdfs:label xml:lang="en">Intravenous</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004370 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004370">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004357"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLObjectProperty_SNA00004406"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004317"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLObjectProperty_SNA00004407"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004317"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Subcutaneous route of administration means the drug is given in the fatty tissue, just under the skin. Which helps the drug to diffuse slowly at a sustained rate of absorption.</rdfs:comment>
+        <rdfs:label xml:lang="en">Sublingual</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004373 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004373">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004349"/>
+        <rdfs:label xml:lang="en">Enalapril + Diclofenac</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004376 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004376">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004350"/>
+        <rdfs:label xml:lang="en">Telmisartan + Diclofenac</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004377 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004377">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004350"/>
+        <rdfs:label xml:lang="en">Telmisartan + Aceclofenac</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004378 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004378">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004346"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLObjectProperty_SNA00004385"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004387"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">ACE Inhibitors + Angiotensin Receptor Blockers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004381 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004381">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004351"/>
+        <rdfs:label xml:lang="en">Atenolol + Diclofenac</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004382 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004382">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004351"/>
+        <rdfs:label xml:lang="en">Atenolo  + Ibuprofen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004386 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004386">
+        <rdfs:label xml:lang="en">Adverse effects</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004387 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004387">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004386"/>
+        <rdfs:comment>Hyperkalemia is a medical problem in which you have too much of potassium in your blood.</rdfs:comment>
+        <rdfs:label xml:lang="en">Hyperkalemia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004388 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004388">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004386"/>
+        <rdfs:comment>Bradycardia is a type of abnormal heart rhythm, or arrhythmia.</rdfs:comment>
+        <rdfs:label xml:lang="en">Bradycardia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004389 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004389">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004386"/>
+        <rdfs:comment>It is a condition in which the kidneys stop working and are not able to remove waste and extra water from the blood or keep body chemicals in balance.</rdfs:comment>
+        <rdfs:label xml:lang="en">Renal Impairment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004391 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004391">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004386"/>
+        <rdfs:label xml:lang="en">Dizziness</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004392 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004392">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004386"/>
+        <rdfs:label xml:lang="en">Feeling nervous</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004393 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004393">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004386"/>
+        <rdfs:label xml:lang="en">Headache</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004394 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004394">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004386"/>
+        <rdfs:label xml:lang="en">Nausea</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004395 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004395">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004386"/>
+        <rdfs:label xml:lang="en">Diarrhea</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004397 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004397">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004386"/>
+        <rdfs:comment>Renovascular hypertension is high blood pressure due to narrowing of the arteries that carry blood to the kidneys.</rdfs:comment>
+        <rdfs:label xml:lang="en">Renovascular malignant hypertension</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004398 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004398">
+        <rdfs:label xml:lang="en">Nervous system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004399 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004399">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004398"/>
+        <rdfs:label xml:lang="en">Sympathetic nervous system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004400 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004400">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004398"/>
+        <rdfs:label xml:lang="en">Parasympathetic nervous system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004402 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004402">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004386"/>
+        <rdfs:label xml:lang="en">Demise</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004404 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004404">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004356"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLObjectProperty_SNA00004390"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004405"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Lactation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004405 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004405">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004386"/>
+        <rdfs:label xml:lang="en">excretion of breast milk</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004318"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004319"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004320"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004321"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/sai/ontologies/2023/3/untitled-ontology-15#OWLClass_SNA00004322"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.24.2023-01-14T21:28:32Z) https://github.com/owlcs/owlapi -->
+
